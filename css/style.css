@@ -1,0 +1,47 @@
+/* -------  Cabecera y menú------- */
+.jumbotron {
+  background: #e0e0e0;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.jumbotron h1 {
+  font-weight: initial;
+}
+/* -------  /Cabecera y menú------- */
+
+/* -------  contenido ------- */
+.container-fluid > .row {
+  padding: 50px;
+}
+
+.imagen1 {
+  width: 100%;
+}
+
+.imagenes-pequenas {
+  width: 100%;
+  height: 12%;
+  border-style: solid;
+  border-width: thin;
+  margin: 10px 0px;
+}
+
+.imagenes-derecha {
+  width: 100%;
+  height: 30%;
+}
+/* -------  /contenido ------- */
+
+/* -------  footer (pie de página) ------- */
+.card-footer {
+  text-align: center;
+  padding: 1.5rem 1rem !important;
+}
+/* -------  /footer (pie de página) ------- */
+
+@media only screen and (max-width: 767px) {
+  .offset-1 {
+    margin-left: 0% !important;
+  }
+}

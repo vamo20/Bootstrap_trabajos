@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ensayo Bootstrap</title>
+
+    <!-- CSS only -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-3">Página Bootstrap</h1>
+          <p class="lead">Esta página tiene diseño responsivo.</p>
+        </div>
+
+        <!-- menu-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">Nombre del sitio web</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Página 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Página 2</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- /menu-->
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Columna de la izquierda -->
+          <div class="col-md-3 offset-1">
+            <h1>Acerca de mi</h1>
+            <label>Fotografía</label>
+            <img class="imagen1" src="img/imagen1.jpg" alt="muelle" />
+            <label>Ejemplo de texto en éste lugar</label>
+            <h2>Más texto</h2>
+            <label>Ejemplo de texto en éste lugar</label>
+            <img class="imagenes-pequenas" src="img/imagen2.jpg" alt="playa" />
+            <img class="imagenes-pequenas" src="img/imagen3.jpg" alt="ciudad" />
+            <img
+              class="imagenes-pequenas"
+              src="img/imagen4.jpg"
+              alt="pintura del mar"
+            />
+          </div>
+          <!-- /Columna de la izquierda -->
+
+          <!-- Columna de la derecha -->
+          <div class="col-md-7">
+            <h2>Titulo de la cabecera</h2>
+            <label>Descripción, 09-02-2021</label>
+            <img
+              class="imagenes-derecha"
+              src="img/imagen5.jpg"
+              alt="Casa de UP"
+            />
+            <label>Algún texto</label>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus et
+              dicta dolorem rem quisquam beatae, quis similique esse ea
+              temporibus pariatur corrupti voluptate delectus optio animi nisi
+              est quod maiores.
+            </p>
+            <h2>Titulo de la cabecera</h2>
+            <label>Descripción, 09-02-2021</label>
+            <img class="imagenes-derecha" src="img/imagen6.jpg" alt="Arboles" />
+            <label>Algún texto</label>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus et
+              dicta dolorem rem quisquam beatae, quis similique esse ea
+              temporibus pariatur corrupti voluptate delectus optio animi nisi
+              est quod maiores.
+            </p>
+          </div>
+          <!-- Columna de la derecha -->
+        </div>
+      </div>
+    </div>
+
+    <div class="card-footer text-muted">
+      Integrantes
+      <p>
+        <span>Marcelo Bravo, </span>
+        <span>Rossmary Ceuta, </span>
+        <span>Verónica Moraga, </span>
+        <span>Jacob Ramirez, </span>
+        <span>Catherinne </span>
+      </p>
+    </div>
+  </body>
+  <!-- JavaScript Bundle with Popper -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"
+  ></script>
+</html>
